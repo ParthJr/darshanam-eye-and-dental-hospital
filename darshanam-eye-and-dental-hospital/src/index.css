@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-midnight-teal: #103a40;
+    --color-champagne-gold: #c9a66b;
+    --color-porcelain-white: #faf9f5;
+    --color-mist-grey: #e7eceb;
+    --color-deep-ink: #172426;
+    --color-muted-sage: #8ba8a0;
+  }
+
+  body {
+    font-family: "Manrope", sans-serif;
+    background-color: var(--color-porcelain-white);
+    color: var(--color-deep-ink);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Sora", sans-serif;
+  }
+
+  .font-serif-quote {
+    font-family: "EB Garamond", serif;
+  }
+}
+
+/* Custom Scrollbar for sleek architectural feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #103a40;
+}
+::-webkit-scrollbar-thumb {
+  background: #c9a66b;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e7eceb;
+}
+
+/* Focus Visible outline for strict WCAG AA accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #c9a66b !important;
+  outline-offset: 2px !important;
+}
+
+/* Architectural Hairline Divider Animation */
+.hairline-glow {
+  box-shadow: 0 0 12px rgba(201, 166, 107, 0.2);
+}
+

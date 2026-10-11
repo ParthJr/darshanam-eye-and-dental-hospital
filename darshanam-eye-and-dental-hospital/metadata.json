@@ -1,0 +1,6 @@
+{
+  "name": "Darshanam Eye and Dental Hospital",
+  "description": "Advanced ophthalmic surgical care and dignified dental wellness in Kudasan, Gandhinagar, Gujarat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
